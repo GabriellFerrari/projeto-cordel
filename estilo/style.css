@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Gloria+Hallelujah&family=Playpen+Sans:wght@100..800&family=Protest+Guerrilla&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Gloria+Hallelujah&family=Playpen+Sans:wght@100..800&family=Protest+Guerrilla&family=Titan+One&display=swap');
+ 
+:root{
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:"Gloria Hallelujah", cursive;
+    --font3:"Gloria Hallelujah", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+html,
+body {
+    min-height: 100vh;
+    background-color: rgb(187, 158, 119);
+    font-family: var(--font1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+
+}
+
+header>h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p>a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+section>p{
+    padding-bottom:30px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(31, 29, 29);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+    
+}
+
+.imagem>p {
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 300px;
+    padding-left: 10px;
+}
+
+#img1{
+background-image: url(background001.jpg);
+background-position: right center ;
+background-size: cover;
+
+}
+
+#img2{
+background-image: url(background002.jpg);
+background-position: right center ;
+background-size: cover;
+}
+
+
+
+footer {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+}
